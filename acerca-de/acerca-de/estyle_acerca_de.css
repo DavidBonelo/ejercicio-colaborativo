@@ -1,0 +1,72 @@
+body {
+    
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #1c74c6;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+section {
+    margin: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #1c74c6;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+#mision,
+#por-que-elegirnos,
+#nuestra-historia {
+    margin-top: 30px;
+}
+
+#mision h3,
+#por-que-elegirnos h3,
+#nuestra-historia h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#mision p,
+#por-que-elegirnos ul,
+#nuestra-historia p {
+    font-size: 1.2em;
+    color: #555;
+    line-height: 1.5;
+}
+
+#por-que-elegirnos ul {
+    list-style: none;
+    padding: 0;
+}
