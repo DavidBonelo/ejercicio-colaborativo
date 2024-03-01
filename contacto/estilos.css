@@ -1,17 +1,67 @@
+nav {
+    background-color: #1c74c6;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
 body {
+    margin: 0;
     background-color: #e0ffff;
+}
+
+.informacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 form h2 {
     text-align: center;
 }
 
+.principal a {
+    color: inherit;
+}
+
+.sub-text {
+    color: #4C4C5B;
+    max-width: 500px;
+}
+
 .light-text {
     font-size: 0.8em;
     color: #4C4C5B;
     text-align: center;
-    width: 400px;
+    max-width: 400px;
     margin: 0 auto;
+}
+
+.solicitudes {
+    width: 800px;
+    display: grid;
+    gap: 8px;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 form {

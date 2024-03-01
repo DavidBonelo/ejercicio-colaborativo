@@ -1,2 +1,3 @@
 # ejercicio-colaborativo
-ejercicio de práctica de git y github colaborativo con git flow
+En este ejercicio se creo una pagina web de una tienda de electronicos usando las funcionalidades del git.
+
