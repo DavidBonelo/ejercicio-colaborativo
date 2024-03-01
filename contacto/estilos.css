@@ -29,16 +29,39 @@ body {
     background-color: #e0ffff;
 }
 
+.informacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 form h2 {
     text-align: center;
+}
+
+.principal a {
+    color: inherit;
+}
+
+.sub-text {
+    color: #4C4C5B;
+    max-width: 500px;
 }
 
 .light-text {
     font-size: 0.8em;
     color: #4C4C5B;
     text-align: center;
-    width: 400px;
+    max-width: 400px;
     margin: 0 auto;
+}
+
+.solicitudes {
+    width: 800px;
+    display: grid;
+    gap: 8px;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 form {
